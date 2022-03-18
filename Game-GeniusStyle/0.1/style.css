@@ -1,0 +1,58 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: initial;
+    background-image: linear-gradient(to bottom right, gray, white);
+
+} */
+
+body{
+    margin: 0;
+    background-color: rgb(107, 166, 233);
+}
+
+.main-game{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius{
+    display: grid;
+    grid-template-areas: 'bird frog' 'fish cat' ;
+    gap: 10px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 100%;
+    width: 700px;
+    height: 700px;
+    }
+
+    .bird{
+    background-color: rgba(216, 12, 12, 0.904);
+    border-top-left-radius: 100%;
+   
+    }
+
+    .frog{
+    background-color: rgb(6, 155, 6);
+    border-top-right-radius: 100%;
+    }
+
+    .fish{
+    background-color: rgba(24, 24, 196, 0.733);
+    border-bottom-left-radius: 100%;
+    }
+
+    .cat{
+    background-color: rgb(223, 223, 3);
+    border-bottom-right-radius: 100%;
+    }
+
+    .selected{
+    opacity: 0.6;
+    }
