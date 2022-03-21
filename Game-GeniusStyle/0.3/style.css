@@ -1,0 +1,81 @@
+
+body{
+    margin: 0;
+    background-image: linear-gradient(#0B4F6C, #D6BA73);
+}
+
+.Score{
+    display: flex;
+    font-size: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 380px;
+}
+
+.score{
+    display: flex;
+    font-size: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+
+.main-game{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius{
+    display: grid;
+    grid-template-areas: 'bird frog' 'fish cat' ;
+    gap: 25px ;
+    border: 25px solid #4D4847;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    }
+    
+    .bird{
+    background-color: #A10702;
+    border-top-left-radius: 100%;
+    background-image: url(/0.3/assets/bird-icon-png.png);
+    background-size:53%;
+    background-position: center;
+   
+    }
+
+    .frog{
+    background-color:#73AB84;
+    border-top-right-radius: 100%;
+    background-image: url(/0.3/assets/frog-icon.png);
+    background-size: 53%;
+    background-position: center;
+    }
+
+    .fish{
+    background-color: #3943B7;
+    border-bottom-left-radius: 100%;
+    background-image: url(/0.3/assets/fish-icon.png);
+    background-position: center;
+    background-size: 53%;
+    }
+
+    .cat{
+    background-color: #F8F4A6;
+    border-bottom-right-radius: 100%;
+    background-image: url(/0.3/assets/cat-icon.png);
+    background-size: 53%;
+    background-position: center;
+    }
+
+
+    .selected{
+    opacity: 0.3;
+    }

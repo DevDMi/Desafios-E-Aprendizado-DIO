@@ -6,8 +6,4 @@ On first version, the game works good.
 
 For  second version, i implemented a score counter creating a counter() function. A issue was happened and the counter has starting by 1 and hasnt reseting, to solve it, i stablished that the counter in case of lose would start at 0, whi counter(score = 0).
 
-To third version, i want to make a better buttom style to make the highlight more visible.
-
-To fourth version, i want make a level system, where each level has less 10 seconds to user.
-
-To five version, the last, i want make interface improvements, and use a gradient background.
+In third version, i implemented a better font to score, and a more visible effect to color highlight, and maked interface improvements using new colors and a gradient background. The system of levels with less seconds proved to be unnecessary, considering that in the higher levels it's necessary a lot of concentration and memory.
