@@ -6,4 +6,4 @@ A genius style game, where the user clicks on the color that will be highlighted
 
 - For  second version, i implemented a score counter creating a counter() function. A issue was happened and the counter has starting by 1 and hasnt reseting, to solve it, i stablished that the counter in case of lose would start at 0, whi counter(score = 0).
 
-In third version, i implemented a better font to score, and a more visible effect to color highlight, and maked interface improvements using new colors and a gradient background. The system of levels with less seconds proved to be unnecessary, considering that in the higher levels it's necessary a lot of concentration and memory.
+- In third version, i implemented a better font to score, and a more visible effect to color highlight, and maked interface improvements using new colors and a gradient background. The system of levels with less seconds proved to be unnecessary, considering that in the higher levels it's necessary a lot of concentration and memory.
