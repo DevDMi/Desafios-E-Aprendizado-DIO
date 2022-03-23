@@ -41,7 +41,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="https://github.com/deverebor">
-       
+       <br/>
         <sub>
           <b>Lucas Souza</b>
         </sub>
@@ -49,14 +49,13 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="https://github.com/MarinsRX">
-        
+        <br/>
         <sub>
           <b>Eli Marins</b>
         </sub>
       </a>
     </td>
-    
-  </tr>
+     </tr>
 </table>
 
 
